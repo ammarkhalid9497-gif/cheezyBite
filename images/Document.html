@@ -1,0 +1,515 @@
+<!DOCTYPE html>
+<!-- saved from url=(0036)http://localhost/cheezybite/home.php -->
+<html lang="en"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./Document_files/style.css">
+    <title>Document</title>
+<style>
+    body{
+        overflow-x:hidden ;
+        margin: 0;
+        padding: 0;
+    }
+nav{
+    width: 100%;
+    height: 80px;
+    padding: 8px;
+    display: flex;
+    justify-content:space-between;
+    background-color: #ffcb04;
+    align-items: center;
+
+    img{
+        width: 100px;
+        height: 80px;
+    }
+    ul{
+        display: flex;
+        gap: 20px;
+        list-style: none;
+        a{
+          text-decoration: none;
+          color: black;
+        }
+    }
+    .btn{
+        margin: 0px 10px ;
+        padding: 10px 15px;
+        font-size: large;
+        border-radius: 8px;
+        background-color:black;
+        color: white;
+    }
+}    
+.hero{
+    margin: 45px auto;
+    width: 90%;
+    height: 300px;
+    img{
+        width: 100%;
+        height: 100%;
+        border-radius: 10px;
+    }
+}
+.heading{
+    width: 90%;
+    margin: auto;
+    color: brown;
+    padding-left: 10px;
+    border-bottom: 2px solid brown;
+    
+}
+.main{
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 20px;
+    padding:25px;
+}
+.mainA{
+    background-color:antiquewhite;
+    width:250px ;
+    text-align: center;
+    border-radius: 8px;
+    padding: 20px 8px;
+    img{
+        width: 240px;
+        height: 200px; 
+        border-radius: 10px;
+    }
+   
+    h2{
+        border-bottom: 1px solid grey;
+        padding: 8px;
+
+    }
+    p{
+        font-size:12px;
+        margin:0;
+    }
+    a{
+        text-decoration : none;
+        background-color: red;
+        color: white;
+        border-radius: 15px;
+        font-size: 16px;
+        border-style: none;
+        padding: 10px;
+    }
+}
+
+.main1{
+    border-radius: 10px;
+    background-color: antiquewhite;
+    justify-content: space-between;
+    padding: 25px;
+    margin: 25px;
+    width: 90%;
+    height:40% ;
+    align-items: center;
+    
+
+    display: flex;
+    img{
+        width:500px ;
+        height:300px ;
+    }
+    h3{
+        color: red;
+    }
+    button{
+        font-size: 18px;
+        border-style: none;
+        border-radius: 15px;
+        background-color: red;
+        color: white;
+          margin: 0px 8px ;
+        padding: 10px;
+    }
+}
+  .main3 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    border-top: 1px solid black;
+    padding: 15px;
+    margin-top: 10px;
+
+    img {
+      width: 130px;
+      height: 100px;
+    }
+
+    ul {
+      display: flex;
+      gap: 20px;
+      list-style: none;
+    }
+
+    .img {
+
+      padding: 15px;
+      display: flex;
+      gap: 10px;
+      align-items: center;
+
+      img {
+        width: 20px;
+        height: 20px;
+
+      }
+    }
+
+  }
+
+  .main4 {
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+  }
+</style></head>
+
+<body>
+<header>
+      
+<nav>
+           <div>
+            <img src="./Document_files/logo1.png" alt="img">
+           </div>
+           <div>
+            <ul>
+                <li>
+                    <a href="http://localhost/cheezybite/home.php">Home</a>
+                </li>
+                <li>
+                   <a href="http://localhost/cheezybite/yourodr.php"> Order</a>
+                </li>
+                <li>
+                   <a href="http://localhost/cheezybite/cart.php"> Cart</a>
+                </li>
+            </ul>
+           </div>
+           <div>
+
+                       <a href="http://localhost/cheezybite/login.php" class="btn btn-sm" type="button">login</a>
+            
+           </div>
+  </nav></header>
+   <div class="hero">
+    <img src="./Document_files/hero.png" alt="">
+   </div>
+   <div>
+    <h2 class="heading">App Exclvsive</h2>
+   </div>
+<div class="main">
+      
+
+          <div class="mainA">
+           <div>
+                 <img src="./Document_files/app1.png" alt="">
+           </div>
+           <div>  
+                 <h2>App Deal 1</h2>
+                 <p>2 Bazinga With 500ml Drink</p>
+                 <h4> Rs.820.00</h4>
+           </div>
+           <div>
+                 <a href="http://localhost/cheezybite/productdetail.php?id=1">Add to cart</a>
+           </div>
+         
+   </div>
+        
+        
+        
+          <div class="mainA">
+           <div>
+                 <img src="./Document_files/app2.png" alt="">
+           </div>
+           <div>  
+                 <h2>App Deal 2</h2>
+                 <p>1 Medium Pizza + 5 Wings + Drink</p>
+                 <h4> Rs.1250.00</h4>
+           </div>
+           <div>
+                 <a href="http://localhost/cheezybite/productdetail.php?id=2">Add to cart</a>
+           </div>
+         
+   </div>
+        
+        
+        
+          <div class="mainA">
+           <div>
+                 <img src="./Document_files/app3.png" alt="">
+           </div>
+           <div>  
+                 <h2>App Deal 3</h2>
+                 <p>1 Large Pizza + 20 HotShots + 1.5L Drink</p>
+                 <h4> Rs.1620.00</h4>
+           </div>
+           <div>
+                 <a href="http://localhost/cheezybite/productdetail.php?id=3">Add to cart</a>
+           </div>
+         
+   </div>
+        
+        
+        </div>
+<div class="main1">
+
+                 
+      <div>
+            <h3>welcome</h3>
+            <h1>We make the best fizza in <br> your town</h1>
+            <p>This is so testy plz try again in one time and <br> best the areya off in town.<br> This is so testy tast try yours frnds  best the <br> areya off in town. </p>
+            <button> privious rivew </button>
+     </div>  
+     <div>
+            <img src="./Document_files/pngwing.com.png" alt="">
+     </div>
+</div>
+ 
+ 
+<div>
+    <h2 class="heading">starters</h2>
+   </div>
+<div class="main">
+      
+
+          <div class="mainA">
+           <div>
+                 <img src="./Document_files/start1.png" alt="">
+           </div>
+           <div>  
+                 <h2>Spin Rolls</h2>
+                 <p>Rolls Stuffed with Yummiest Mix Served with Sauce</p>
+                 <h4> Rs.590.00</h4>
+           </div>
+           <div>
+                 <a href="http://localhost/cheezybite/productdetail.php?id=4">Add to cart</a>
+           </div>
+         
+   </div>
+        
+        
+        
+          <div class="mainA">
+           <div>
+                 <img src="./Document_files/start2.jpg" alt="">
+           </div>
+           <div>  
+                 <h2>Cheese Sticks</h2>
+                 <p>Freshly Baked Bread Filled with the Yummiest Cheese</p>
+                 <h4> Rs.570.00</h4>
+           </div>
+           <div>
+                 <a href="http://localhost/cheezybite/productdetail.php?id=5">Add to cart</a>
+           </div>
+         
+   </div>
+        
+        
+        
+          <div class="mainA">
+           <div>
+                 <img src="./Document_files/start3.jpg" alt="">
+           </div>
+           <div>  
+                 <h2>Calzone Chunks</h2>
+                 <p>4 Pcs Stuffed Calzone Chunks Served with Sauce &amp; Fries</p>
+                 <h4> Rs.960.00</h4>
+           </div>
+           <div>
+                 <a href="http://localhost/cheezybite/productdetail.php?id=6">Add to cart</a>
+           </div>
+         
+   </div>
+        
+        
+        
+          <div class="mainA">
+           <div>
+                 <img src="./Document_files/start4.jpg" alt="">
+           </div>
+           <div>  
+                 <h2>Baked Wings</h2>
+                 <p>Fresh Oven Baked Wings Tossed In Hot Peri Peri Sauce.</p>
+                 <h4> Rs.450.00</h4>
+           </div>
+           <div>
+                 <a href="http://localhost/cheezybite/productdetail.php?id=7">Add to cart</a>
+           </div>
+         
+   </div>
+        
+        
+        
+          <div class="mainA">
+           <div>
+                 <img src="./Document_files/start5.png" alt="">
+           </div>
+           <div>  
+                 <h2>Flaming Wings</h2>
+                 <p>10 Fresh Oven Baked Wings Served With Dip Sauce</p>
+                 <h4> Rs.720.00</h4>
+           </div>
+           <div>
+                 <a href="http://localhost/cheezybite/productdetail.php?id=8">Add to cart</a>
+           </div>
+         
+   </div>
+        
+        
+        
+          <div class="mainA">
+           <div>
+                 <img src="./Document_files/start6.jpg" alt="">
+           </div>
+           <div>  
+                 <h2>Pizza Stacker</h2>
+                 <p>A Unique Blend of Delicious Sauce, Crispy Chicken and Pizza Crust.</p>
+                 <h4> Rs.790.00</h4>
+           </div>
+           <div>
+                 <a href="http://localhost/cheezybite/productdetail.php?id=9">Add to cart</a>
+           </div>
+         
+   </div>
+        
+        
+        
+          <div class="mainA">
+           <div>
+                 <img src="./Document_files/start7.png" alt="">
+           </div>
+           <div>  
+                 <h2>Mexican Sandwich</h2>
+                 <p>Mozzarella Dipped Chicken Served in Baked Bread.</p>
+                 <h4> Rs.750.00</h4>
+           </div>
+           <div>
+                 <a href="http://localhost/cheezybite/productdetail.php?id=10">Add to cart</a>
+           </div>
+         
+   </div>
+        
+        
+        </div>
+
+<div>
+    <h2 class="heading">top deals</h2>
+   </div>
+<div class="main">
+      
+
+          <div class="mainA">
+           <div>
+                 <img src="./Document_files/deal1.jpg" alt="">
+           </div>
+           <div>  
+                 <h2>Deal 1</h2>
+                 <p>1 Bazinga Burger, 1 Regular Fries &amp; Regular Drink</p>
+                 <h4> Rs.700.00</h4>
+           </div>
+           <div>
+                 <a href="http://localhost/cheezybite/productdetail.php?id=11">Add to cart</a>
+           </div>
+         
+   </div>
+        
+        
+        
+          <div class="mainA">
+           <div>
+                 <img src="./Document_files/deal2.jpg" alt="">
+           </div>
+           <div>  
+                 <h2>Deal 2</h2>
+                 <p>1 Reggy Burger, 1 Regular Fries, Regular Drink</p>
+                 <h4> Rs.610.00</h4>
+           </div>
+           <div>
+                 <a href="http://localhost/cheezybite/productdetail.php?id=12">Add to cart</a>
+           </div>
+         
+   </div>
+        
+        
+        
+          <div class="mainA">
+           <div>
+                 <img src="./Document_files/deal3.jpg" alt="">
+           </div>
+           <div>  
+                 <h2>Deal 3</h2>
+                 <p>10 Pcs Hot Wings Served With Dip Sauce &amp; Regular Drink</p>
+                 <h4> Rs.630.00</h4>
+           </div>
+           <div>
+                 <a href="http://localhost/cheezybite/productdetail.php?id=13">Add to cart</a>
+           </div>
+         
+   </div>
+        
+        
+        
+          <div class="mainA">
+           <div>
+                 <img src="./Document_files/deal4.jpg" alt="">
+           </div>
+           <div>  
+                 <h2>Deal 4</h2>
+                 <p>1 Medium Pizza Special, 10 Wings, 1.5L Drink</p>
+                 <h4> Rs.1870.00</h4>
+           </div>
+           <div>
+                 <a href="http://localhost/cheezybite/productdetail.php?id=14">Add to cart</a>
+           </div>
+         
+   </div>
+        
+        
+        
+          <div class="mainA">
+           <div>
+                 <img src="./Document_files/deal5.jpg" alt="">
+           </div>
+           <div>  
+                 <h2>Deal 5</h2>
+                 <p>2 Large Pizza, 1.5 L Drink</p>
+                 <h4> Rs.3160.00</h4>
+           </div>
+           <div>
+                 <a href="http://localhost/cheezybite/productdetail.php?id=15">Add to cart</a>
+           </div>
+         
+   </div>
+        
+        
+        </div>
+<div class="main3">
+   <img src="./Document_files/logo1.png" alt="">
+   <div>
+        <ul>
+            <li>HOME</li>
+            <li>ORDER</li>
+            <li>CART</li>
+            <li>Cell No.</li>
+            <li>Email</li>
+        </ul>
+   </div>
+   <div class="img">
+      <img src="./Document_files/youtube.png" alt="">
+      <img src="./Document_files/twitter.png" alt="">
+      <img src="./Document_files/fb.png" alt="">
+   </div>
+</div>
+<div class="main4">
+    <p>copyright # 2025 - all right reserved.</p>
+</div>
+
+</body></html>
